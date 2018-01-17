@@ -16,13 +16,13 @@ import com.gcit.lms.controller.AdminService;
 public class LMSConfig {
 	
 	public final String driver = "com.mysql.jdbc.Driver";
-//	public final String url = "jdbc:mysql://test1.chknk5hgkwrj.us-east-1.rds.amazonaws.com:9000/library";
-//	public final String username = "test1";
-//	public final String password = "test1test1";//password
+	public final String url = "jdbc:mysql://test1.chknk5hgkwrj.us-east-1.rds.amazonaws.com:9000/library";
+	public final String username = "test1";
+	public final String password = "test1test1";//password
 	
-	public final String url = "jdbc:mysql://127.0.0.1:3306/library";
-	public final String username = "root";
-	public final String password = "Chandru29";//password
+//	public final String url = "jdbc:mysql://127.0.0.1:3306/library";
+//	public final String username = "root";
+//	public final String password = "";//password
 	
 	@Bean
 	public BasicDataSource dataSource(){
