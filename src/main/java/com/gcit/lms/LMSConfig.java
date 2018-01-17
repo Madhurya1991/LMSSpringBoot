@@ -20,7 +20,7 @@ public class LMSConfig {
 //	public final String username = "test1";
 //	public final String password = "test1test1";//password
 	
-	public final String url = "jdbc:mysql://localhost:3306/library";
+	public final String url = "jdbc:mysql://127.0.0.1:3306/library";
 	public final String username = "root";
 	public final String password = "Chandru29";//password
 	
